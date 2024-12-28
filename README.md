@@ -1,10 +1,29 @@
-# InvitationLetter_Generator
-Program to generate an invitation letter using a template and a file of names
+# Invitation Letter Generator ✉️
 
-- The program will generate an invitation for each name contained in the file named "names_list.txt"
-- The "names_list.txt" route is "./input/names/names_list.txt"
-- You can write any amount of names for who you want to generate an invitation
-- You can algo change the letter template, but the key word "[name]" is necessary
-- The program will replace the key word "[name]" for the name(s) contained in the file named "names_list.txt"
-- All the generated letter will be saved in a directory called "ready_letters"
-- The "ready_letters" route is "./output/ready_letters"
+A program to create personalized invitation letters using a template and a list of names.
+
+---
+
+## 📘 How Does It Work?
+
+### 1. Input Names:
+   - The program reads names from a file named `names_list.txt`.  
+   - File path: `./input/names/names_list.txt`.
+   - You can include as many names as you'd like in this file. But make sure to maintain the format.
+
+2. **Template Customization**:
+   - The invitation letter is based on a customizable template.  
+   - **Important**: Ensure the template contains the keyword `[name]`.  
+   - The program will replace `[name]` with each of the names from `names_list.txt`.
+
+3. **Output Letters**:
+   - The program generates a personalized invitation for each name in the list.  
+   - All generated letters are saved in the `ready_letters` directory.  
+   - Output path: `./output/ready_letters`.
+
+---
+
+## 💡 Notes
+
+- You can modify the letter template as needed, but the placeholder `[name]` is **required**.  
+- Each invitation letter is automatically saved and ready to use!
